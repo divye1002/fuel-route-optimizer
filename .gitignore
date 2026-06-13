@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+
+# Generated data cache (rebuilt by `python manage.py load_stations`)
+data/stations_geocoded.csv
+
+# Environment
+.env
+
+# Editors / OS / tooling
+.vscode/
+.idea/
+.DS_Store
+.claude/
