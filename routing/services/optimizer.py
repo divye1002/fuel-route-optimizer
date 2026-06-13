@@ -1,10 +1,3 @@
-"""Cost-optimal fuel-stop selection (the gas-station problem).
-
-Look-ahead greedy over stations sorted by miles-from-start. Work in miles of range
-and convert to gallons/dollars only when buying. The vehicle starts with a full tank
-(configurable), modeled as a virtual origin station priced at 0.
-"""
-
 from dataclasses import dataclass, field
 
 from django.conf import settings
